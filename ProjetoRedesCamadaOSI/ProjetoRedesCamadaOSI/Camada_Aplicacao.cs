@@ -1,17 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
-
 
 namespace ProjetoRedesCamadaOSI
 {
-    class Program
+    //CAMADA 7 DO MODELO OSI
+    public class Camada_Aplicacao
     {
- 
-        static void Main(string [] args)
-        {
-        }
     }
 }
