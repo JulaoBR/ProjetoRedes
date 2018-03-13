@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ProjetoRedesCamadaOSI")]
+[assembly: AssemblyTitle("ProjetoRedes")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ProjetoRedesCamadaOSI")]
+[assembly: AssemblyProduct("ProjetoRedes")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("5168170b-bd55-4a1c-9069-5357a80d36bf")]
+[assembly: Guid("d4113894-fb97-4c2f-8805-a901e9d3a5c1")]
 
 // Version information for an assembly consists of the following four values:
 //

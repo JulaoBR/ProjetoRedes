@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ProjetoRedesCamadaOSI.Properties
+namespace ProjetoRedes.Properties
 {
 
 
