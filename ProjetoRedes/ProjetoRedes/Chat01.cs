@@ -6,7 +6,6 @@ namespace ProjetoRedes
 {
     public partial class Chat01 : Form
     {
-        
 
         public Chat01()
         {
@@ -26,7 +25,24 @@ namespace ProjetoRedes
 
         private void btnEnviar_Click(object sender, EventArgs e)
         {
-            
+            Aplicacao apl = new Aplicacao();
+            Apresentacao apr = new Apresentacao();
+
+            txtExibi.AppendText("CHAMANDO CAMADA DE APLICAÇÃO..." + "\r\n\n");
+            txtExibi.AppendText(apl.Inicia() + "\r\n");
+            camada7.Visible = true;
+
+            timer1_Tick(sender, e);
+
+            txtExibi.AppendText("CHAMANDO CAMADA DE APRESENTACAO..." + "\r\n\n");
+            txtExibi.AppendText(apr.Retorno() + "\r\n");
+            camada6.Visible = true;
+        }
+
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+           
         }
     }
 }
