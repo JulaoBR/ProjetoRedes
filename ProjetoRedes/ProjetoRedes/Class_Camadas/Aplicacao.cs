@@ -8,8 +8,7 @@ namespace ProjetoRedes
 {
     public class Aplicacao 
     {
-        
-
+       
         public string Inicia()
         {
             return "RETORNO DA CAMADA DE APLICAÇÃO";
