@@ -14,13 +14,12 @@ namespace ProjetoRedes
         public Aplicacao(Pacote pct)
         {
             this.pacote = pct;
-            pacote.protololos = "HTTP,FTP, ETC";
+            pacote.camada7 = "Funções especializadas (transferência de arquivos, terminal virtual, e-mail)";
         }
 
         public Pacote Retorno()
         {
             return pacote;
-
         }
     }
 }

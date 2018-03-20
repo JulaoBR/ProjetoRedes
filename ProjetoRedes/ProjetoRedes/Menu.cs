@@ -14,7 +14,6 @@ namespace ProjetoRedes
     {
 
         Chat01 chat1 = new Chat01();
-        Chat02 chat2 = new Chat02();
 
         public Menu()
         {
@@ -26,14 +25,7 @@ namespace ProjetoRedes
             
             chat1.Show();
             chat1.Location = new Point(100, 50);  
-            chat2.Show();
-            chat2.Location = new Point(1050, 50);
         }
 
-        private void btnFinalizar_Click(object sender, EventArgs e)
-        {
-            chat1.Hide();
-            chat2.Hide();
-        }
     }
 }

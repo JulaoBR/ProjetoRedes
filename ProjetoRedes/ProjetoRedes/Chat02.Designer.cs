@@ -56,11 +56,8 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.camada6 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtExibi = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.camada1.SuspendLayout();
             this.camada2.SuspendLayout();
@@ -74,9 +71,9 @@
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.panel10.Location = new System.Drawing.Point(355, 417);
+            this.panel10.Location = new System.Drawing.Point(20, 0);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(25, 43);
+            this.panel10.Size = new System.Drawing.Size(26, 42);
             this.panel10.TabIndex = 20;
             // 
             // camada7
@@ -209,10 +206,11 @@
             // 
             this.camada3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.camada3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.camada3.Controls.Add(this.panel10);
             this.camada3.Controls.Add(this.panel17);
             this.camada3.Controls.Add(this.panel14);
             this.camada3.Controls.Add(this.panel5);
-            this.camada3.Location = new System.Drawing.Point(334, 417);
+            this.camada3.Location = new System.Drawing.Point(334, 418);
             this.camada3.Name = "camada3";
             this.camada3.Size = new System.Drawing.Size(118, 44);
             this.camada3.TabIndex = 16;
@@ -322,20 +320,18 @@
             this.panel2.Size = new System.Drawing.Size(23, 43);
             this.panel2.TabIndex = 0;
             // 
-            // textBox4
+            // txtExibi
             // 
-            this.textBox4.Location = new System.Drawing.Point(13, 182);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(314, 378);
-            this.textBox4.TabIndex = 12;
+            this.txtExibi.Location = new System.Drawing.Point(13, 182);
+            this.txtExibi.Multiline = true;
+            this.txtExibi.Name = "txtExibi";
+            this.txtExibi.ReadOnly = true;
+            this.txtExibi.Size = new System.Drawing.Size(314, 378);
+            this.txtExibi.TabIndex = 12;
             // 
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.textBox3);
-            this.panel1.Controls.Add(this.textBox2);
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Location = new System.Drawing.Point(11, 17);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
@@ -343,46 +339,24 @@
             this.panel1.Size = new System.Drawing.Size(346, 160);
             this.panel1.TabIndex = 11;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(215, 119);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(102, 28);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(15, 85);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(302, 20);
-            this.textBox3.TabIndex = 2;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(15, 51);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(302, 20);
-            this.textBox2.TabIndex = 1;
-            // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(15, 15);
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(25, 42);
             this.textBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(302, 20);
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(302, 74);
             this.textBox1.TabIndex = 0;
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Chat02
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(515, 579);
-            this.Controls.Add(this.panel10);
             this.Controls.Add(this.camada7);
             this.Controls.Add(this.camada1);
             this.Controls.Add(this.camada2);
@@ -390,12 +364,13 @@
             this.Controls.Add(this.camada4);
             this.Controls.Add(this.camada5);
             this.Controls.Add(this.camada6);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.txtExibi);
             this.Controls.Add(this.panel1);
             this.Location = new System.Drawing.Point(600, 300);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Chat02";
             this.Text = "Chat02";
+            this.Load += new System.EventHandler(this.Chat02_Load);
             this.camada1.ResumeLayout(false);
             this.camada2.ResumeLayout(false);
             this.camada3.ResumeLayout(false);
@@ -439,11 +414,8 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel camada6;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtExibi;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
     }
 }

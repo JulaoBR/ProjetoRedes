@@ -62,6 +62,7 @@
             this.panel7 = new System.Windows.Forms.Panel();
             this.camada7 = new System.Windows.Forms.Panel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.camada6.SuspendLayout();
             this.camada5.SuspendLayout();
@@ -74,6 +75,7 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.btnEnviar);
             this.panel1.Controls.Add(this.txtDados);
             this.panel1.Location = new System.Drawing.Point(10, 11);
@@ -95,19 +97,23 @@
             // 
             // txtDados
             // 
-            this.txtDados.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDados.Location = new System.Drawing.Point(42, 43);
+            this.txtDados.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.txtDados.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtDados.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDados.Location = new System.Drawing.Point(14, 53);
             this.txtDados.Margin = new System.Windows.Forms.Padding(2);
             this.txtDados.Multiline = true;
             this.txtDados.Name = "txtDados";
-            this.txtDados.Size = new System.Drawing.Size(229, 63);
+            this.txtDados.Size = new System.Drawing.Size(287, 46);
             this.txtDados.TabIndex = 0;
+            this.txtDados.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtExibi
             // 
             this.txtExibi.Location = new System.Drawing.Point(12, 176);
             this.txtExibi.Multiline = true;
             this.txtExibi.Name = "txtExibi";
+            this.txtExibi.ReadOnly = true;
             this.txtExibi.Size = new System.Drawing.Size(314, 378);
             this.txtExibi.TabIndex = 1;
             // 
@@ -365,8 +371,19 @@
             // 
             // timer1
             // 
+            this.timer1.Enabled = true;
             this.timer1.Interval = 5000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(10, 27);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(232, 24);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Digite uma mensagem*:";
             // 
             // Chat01
             // 
@@ -435,7 +452,8 @@
         private System.Windows.Forms.Panel panel16;
         private System.Windows.Forms.Panel panel12;
         private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.Timer timer1;
+        public System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label label1;
     }
 }
 
