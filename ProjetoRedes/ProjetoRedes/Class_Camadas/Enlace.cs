@@ -8,17 +8,17 @@ namespace ProjetoRedes
 {
     public class Enlace
     {
-        //SOBE PARA CAMADA 3
-        Redes red = new Redes();
-        //DESCE PARA CAMADA 1
-        Fisica fis = new Fisica();
+        private Pacote pacote;
 
-
-        //CONSTRUTOR DA CLASSE
-        public Enlace()
+        public Enlace(Pacote pct)
         {
-
+            this.pacote = pct;
+            pacote.camada2 = "Detecção e correção de erros introduzidos pelo meio de transmissão";
         }
 
+        public Pacote Retorno()
+        {
+            return pacote;
+        }
     }
 }

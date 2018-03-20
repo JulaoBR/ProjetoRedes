@@ -8,12 +8,17 @@ namespace ProjetoRedes
 {
     public class Apresentacao
     {
+        private Pacote pacote;
 
-
-        public string Retorno()
+        public Apresentacao(Pacote pct)
         {
-            return "RETORNO DA CAMADA DE APRESENTAÇÃO";
+            this.pacote = pct;
+            pacote.camada6 = "Formatação de dados e conversão de caracteres e códigos";
         }
 
+        public Pacote Retorno()
+        {
+            return pacote;
+        }
     }
 }

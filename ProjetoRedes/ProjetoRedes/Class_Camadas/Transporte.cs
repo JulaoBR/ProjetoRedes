@@ -8,11 +8,17 @@ namespace ProjetoRedes
 {
     public class Transporte
     {
-        public int mac { set; get; }
-        
-        public string nomedomedotdo()
+        private Pacote pacote;
+
+        public Transporte(Pacote pct)
         {
-            return "";
+            this.pacote = pct;
+            pacote.camada4 = "Meios e métodos para a entrega de dados ponta-a-ponta";
+        }
+
+        public Pacote Retorno()
+        {
+            return pacote;
         }
     }
 }

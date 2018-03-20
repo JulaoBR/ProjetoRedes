@@ -48,17 +48,17 @@
   <ItemGroup>
     <Compile Include="Class_Camadas\Aplicacao.cs" />
     <Compile Include="Class_Camadas\Apresentacao.cs" />
-    <Compile Include="Chat01.cs">
+    <Compile Include="Tela01.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chat01.Designer.cs">
-      <DependentUpon>Chat01.cs</DependentUpon>
+    <Compile Include="Tela01.Designer.cs">
+      <DependentUpon>Tela01.cs</DependentUpon>
     </Compile>
-    <Compile Include="Chat02.cs">
+    <Compile Include="Tela02.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chat02.Designer.cs">
-      <DependentUpon>Chat02.cs</DependentUpon>
+    <Compile Include="Tela02.Designer.cs">
+      <DependentUpon>Tela02.cs</DependentUpon>
     </Compile>
     <Compile Include="Class_Camadas\Enlace.cs" />
     <Compile Include="Class_Camadas\Fisica.cs" />
@@ -68,16 +68,17 @@
     <Compile Include="Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pacote.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Class_Camadas\Redes.cs" />
     <Compile Include="Class_Camadas\Sessao.cs" />
     <Compile Include="Class_Camadas\Transporte.cs" />
-    <EmbeddedResource Include="Chat01.resx">
-      <DependentUpon>Chat01.cs</DependentUpon>
+    <EmbeddedResource Include="Tela01.resx">
+      <DependentUpon>Tela01.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Chat02.resx">
-      <DependentUpon>Chat02.cs</DependentUpon>
+    <EmbeddedResource Include="Tela02.resx">
+      <DependentUpon>Tela02.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
