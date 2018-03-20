@@ -31,9 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnEnviar = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtDados = new System.Windows.Forms.TextBox();
             this.txtExibi = new System.Windows.Forms.TextBox();
             this.camada6 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -77,18 +75,16 @@
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.btnEnviar);
-            this.panel1.Controls.Add(this.textBox3);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.txtDados);
             this.panel1.Location = new System.Drawing.Point(10, 11);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(346, 160);
+            this.panel1.Size = new System.Drawing.Size(316, 160);
             this.panel1.TabIndex = 0;
             // 
             // btnEnviar
             // 
-            this.btnEnviar.Location = new System.Drawing.Point(238, 126);
+            this.btnEnviar.Location = new System.Drawing.Point(208, 126);
             this.btnEnviar.Margin = new System.Windows.Forms.Padding(2);
             this.btnEnviar.Name = "btnEnviar";
             this.btnEnviar.Size = new System.Drawing.Size(102, 28);
@@ -97,29 +93,15 @@
             this.btnEnviar.UseVisualStyleBackColor = true;
             this.btnEnviar.Click += new System.EventHandler(this.btnEnviar_Click);
             // 
-            // textBox3
+            // txtDados
             // 
-            this.textBox3.Location = new System.Drawing.Point(94, 86);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(246, 20);
-            this.textBox3.TabIndex = 2;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(94, 52);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(246, 20);
-            this.textBox2.TabIndex = 1;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(94, 15);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(246, 20);
-            this.textBox1.TabIndex = 0;
+            this.txtDados.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDados.Location = new System.Drawing.Point(42, 43);
+            this.txtDados.Margin = new System.Windows.Forms.Padding(2);
+            this.txtDados.Multiline = true;
+            this.txtDados.Name = "txtDados";
+            this.txtDados.Size = new System.Drawing.Size(229, 63);
+            this.txtDados.TabIndex = 0;
             // 
             // txtExibi
             // 
@@ -423,9 +405,7 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnEnviar;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtDados;
         private System.Windows.Forms.TextBox txtExibi;
         private System.Windows.Forms.Panel camada6;
         private System.Windows.Forms.Panel camada5;

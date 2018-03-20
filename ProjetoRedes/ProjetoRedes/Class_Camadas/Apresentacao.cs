@@ -10,10 +10,5 @@ namespace ProjetoRedes
     {
 
 
-        public string Retorno()
-        {
-            return "RETORNO DA CAMADA DE APRESENTAÇÃO";
-        }
-
     }
 }

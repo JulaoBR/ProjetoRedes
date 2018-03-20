@@ -8,11 +8,18 @@ namespace ProjetoRedes
 {
     public class Aplicacao 
     {
-        
+        private Pacote pacote;
 
-        public string Inicia()
+
+        public Aplicacao(Pacote pct)
         {
-            return "RETORNO DA CAMADA DE APLICAÇÃO";
+            this.pacote = pct;
+            pacote.protololos = "HTTP,FTP, ETC";
+        }
+
+        public Pacote Retorno()
+        {
+            return pacote;
 
         }
     }
