@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace ProjetoRedes
 {
-    public class Apresentacao
+    public class Transporte
     {
-        private Pacote pacote;
+        private PacoteOSI pacote;
 
-        public Apresentacao(Pacote pct)
+        public Transporte(PacoteOSI pct)
         {
             this.pacote = pct;
-            pacote.camada6 = "Formatação de dados e conversão de caracteres e códigos";
+            pacote.camada5 = "Meios e métodos para a entrega de dados ponta-a-ponta";
         }
 
-        public Pacote Retorno()
+        public PacoteOSI Retorno()
         {
             return pacote;
         }

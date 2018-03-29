@@ -1,15 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace ProjetoRedes
 {
-    public class Pacote
+    public class PacoteOSI
     {
         //DADOS A SER ENVIADO
         public string dados { get; set; }
+        
+        //NOME DA CAMADA
+        public string nome_camada { get; set; }
 
         //INFORMAÇÔES DA CAMADA DE APLICAÇÃO
         public string camada7 { get; set; }

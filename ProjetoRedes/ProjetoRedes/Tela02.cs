@@ -12,9 +12,9 @@ namespace ProjetoRedes
 {
     public partial class Tela02 : Form
     {
-        private Pacote pacote;
+        private PacoteOSI pacote;
 
-        public Tela02(Pacote pct)
+        public Tela02(PacoteOSI pct)
         {
             InitializeComponent();
             EscondeAsCamadas();

@@ -6,17 +6,18 @@ using System.Threading.Tasks;
 
 namespace ProjetoRedes
 {
-    public class Sessao
+    public class Aplicacao 
     {
-        private Pacote pacote;
+        private PacoteOSI pacote;
 
-        public Sessao(Pacote pct)
+
+        public Aplicacao(PacoteOSI pct)
         {
             this.pacote = pct;
-            pacote.camada5 = "Negociação e estabelecimento de conexão com outro nó";
+            pacote.camada7 = "Funções especializadas (transferência de arquivos, terminal virtual, e-mail)";
         }
 
-        public Pacote Retorno()
+        public PacoteOSI Retorno()
         {
             return pacote;
         }

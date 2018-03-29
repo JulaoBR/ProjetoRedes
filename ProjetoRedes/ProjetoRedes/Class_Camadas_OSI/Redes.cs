@@ -6,17 +6,16 @@ using System.Threading.Tasks;
 
 namespace ProjetoRedes
 {
-    public class Transporte
+    public class Redes
     {
-        private Pacote pacote;
-
-        public Transporte(Pacote pct)
+        private PacoteOSI pacote;
+        public Redes(PacoteOSI pct)
         {
             this.pacote = pct;
-            pacote.camada4 = "Meios e métodos para a entrega de dados ponta-a-ponta";
+            pacote.camada3 = "Roteamento de pacotes através de uma ou várias redes";
         }
 
-        public Pacote Retorno()
+        public PacoteOSI Retorno()
         {
             return pacote;
         }

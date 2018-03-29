@@ -6,18 +6,17 @@ using System.Threading.Tasks;
 
 namespace ProjetoRedes
 {
-    public class Aplicacao 
+    public class Enlace
     {
-        private Pacote pacote;
+        private PacoteOSI pacote;
 
-
-        public Aplicacao(Pacote pct)
+        public Enlace(PacoteOSI pct)
         {
             this.pacote = pct;
-            pacote.camada7 = "Funções especializadas (transferência de arquivos, terminal virtual, e-mail)";
+            pacote.camada2 = "Detecção e correção de erros introduzidos pelo meio de transmissão";
         }
 
-        public Pacote Retorno()
+        public PacoteOSI Retorno()
         {
             return pacote;
         }

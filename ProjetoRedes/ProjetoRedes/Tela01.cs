@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Windows.Forms;
-using System.Timers;
 using System.Drawing;
 
 namespace ProjetoRedes
 {
     public partial class Tela01 : Form
     {
-        Pacote pacote = new Pacote();
+        PacoteOSI pacote = new PacoteOSI();
 
         public Tela01()
         {
@@ -39,7 +38,9 @@ namespace ProjetoRedes
             {
                 btnCamada7.Visible = true;
 
-                Camada7();                           
+                Camada7();
+
+                btnEnviar.Enabled = false;                         
             }
             else
             {
@@ -168,7 +169,6 @@ namespace ProjetoRedes
             chat2.Show();
             chat2.Location = new Point(800, 50);
 
-            btnEnviar.Enabled = false;
             btnCamada1.Visible = false;
         }
 

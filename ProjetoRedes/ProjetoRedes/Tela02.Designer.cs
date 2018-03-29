@@ -66,6 +66,7 @@
             this.btnCamada5 = new System.Windows.Forms.Button();
             this.btnCamada6 = new System.Windows.Forms.Button();
             this.btnCamada7 = new System.Windows.Forms.Button();
+            this.panel23 = new System.Windows.Forms.Panel();
             this.camada1.SuspendLayout();
             this.camada2.SuspendLayout();
             this.camada3.SuspendLayout();
@@ -77,7 +78,7 @@
             // 
             // panel10
             // 
-            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.panel10.Location = new System.Drawing.Point(20, 0);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(26, 42);
@@ -85,7 +86,7 @@
             // 
             // camada7
             // 
-            this.camada7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.camada7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.camada7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.camada7.Location = new System.Drawing.Point(364, 214);
             this.camada7.Name = "camada7";
@@ -94,7 +95,7 @@
             // 
             // camada1
             // 
-            this.camada1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.camada1.BackColor = System.Drawing.Color.Lime;
             this.camada1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.camada1.Controls.Add(this.panel22);
             this.camada1.Controls.Add(this.panel21);
@@ -109,7 +110,7 @@
             // 
             // panel22
             // 
-            this.panel22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.panel22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.panel22.Location = new System.Drawing.Point(117, 0);
             this.panel22.Name = "panel22";
             this.panel22.Size = new System.Drawing.Size(25, 43);
@@ -117,7 +118,7 @@
             // 
             // panel21
             // 
-            this.panel21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.panel21.BackColor = System.Drawing.SystemColors.Highlight;
             this.panel21.Location = new System.Drawing.Point(92, 0);
             this.panel21.Name = "panel21";
             this.panel21.Size = new System.Drawing.Size(25, 43);
@@ -125,7 +126,7 @@
             // 
             // panel19
             // 
-            this.panel19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.panel19.BackColor = System.Drawing.Color.Green;
             this.panel19.Location = new System.Drawing.Point(67, 0);
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(25, 43);
@@ -133,7 +134,7 @@
             // 
             // panel16
             // 
-            this.panel16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.panel16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.panel16.Location = new System.Drawing.Point(44, 0);
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(25, 43);
@@ -141,7 +142,7 @@
             // 
             // panel12
             // 
-            this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.panel12.Location = new System.Drawing.Point(20, 0);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(25, 43);
@@ -149,7 +150,7 @@
             // 
             // panel7
             // 
-            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.panel7.Location = new System.Drawing.Point(-1, 0);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(23, 43);
@@ -157,7 +158,7 @@
             // 
             // camada2
             // 
-            this.camada2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.camada2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.camada2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.camada2.Controls.Add(this.panel20);
             this.camada2.Controls.Add(this.panel18);
@@ -171,7 +172,7 @@
             // 
             // panel20
             // 
-            this.panel20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.panel20.BackColor = System.Drawing.SystemColors.Highlight;
             this.panel20.Location = new System.Drawing.Point(93, 0);
             this.panel20.Name = "panel20";
             this.panel20.Size = new System.Drawing.Size(25, 43);
@@ -179,7 +180,7 @@
             // 
             // panel18
             // 
-            this.panel18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.panel18.BackColor = System.Drawing.Color.Green;
             this.panel18.Location = new System.Drawing.Point(68, 0);
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(25, 43);
@@ -187,7 +188,7 @@
             // 
             // panel15
             // 
-            this.panel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.panel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.panel15.Location = new System.Drawing.Point(45, 0);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(25, 43);
@@ -195,7 +196,7 @@
             // 
             // panel11
             // 
-            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.panel11.Location = new System.Drawing.Point(21, 0);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(25, 43);
@@ -203,7 +204,7 @@
             // 
             // panel6
             // 
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.panel6.Location = new System.Drawing.Point(0, 0);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(23, 43);
@@ -211,7 +212,7 @@
             // 
             // camada3
             // 
-            this.camada3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.camada3.BackColor = System.Drawing.SystemColors.Highlight;
             this.camada3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.camada3.Controls.Add(this.panel10);
             this.camada3.Controls.Add(this.panel17);
@@ -224,7 +225,7 @@
             // 
             // panel17
             // 
-            this.panel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.panel17.BackColor = System.Drawing.Color.Green;
             this.panel17.Location = new System.Drawing.Point(67, 0);
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(25, 43);
@@ -232,7 +233,7 @@
             // 
             // panel14
             // 
-            this.panel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.panel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.panel14.Location = new System.Drawing.Point(44, 0);
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(25, 43);
@@ -240,7 +241,7 @@
             // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.panel5.Location = new System.Drawing.Point(-1, 0);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(23, 43);
@@ -248,7 +249,7 @@
             // 
             // camada4
             // 
-            this.camada4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.camada4.BackColor = System.Drawing.Color.Green;
             this.camada4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.camada4.Controls.Add(this.panel13);
             this.camada4.Controls.Add(this.panel9);
@@ -260,7 +261,7 @@
             // 
             // panel13
             // 
-            this.panel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.panel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.panel13.Location = new System.Drawing.Point(45, 0);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(25, 43);
@@ -268,7 +269,7 @@
             // 
             // panel9
             // 
-            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.panel9.Location = new System.Drawing.Point(21, 0);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(25, 43);
@@ -276,7 +277,7 @@
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.panel4.Location = new System.Drawing.Point(0, 0);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(23, 43);
@@ -284,7 +285,7 @@
             // 
             // camada5
             // 
-            this.camada5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.camada5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.camada5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.camada5.Controls.Add(this.panel8);
             this.camada5.Controls.Add(this.panel3);
@@ -295,7 +296,7 @@
             // 
             // panel8
             // 
-            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.panel8.Location = new System.Drawing.Point(21, 0);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(25, 43);
@@ -303,7 +304,7 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(23, 43);
@@ -311,7 +312,7 @@
             // 
             // camada6
             // 
-            this.camada6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.camada6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.camada6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.camada6.Controls.Add(this.panel2);
             this.camada6.Location = new System.Drawing.Point(364, 265);
@@ -321,7 +322,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.panel2.Location = new System.Drawing.Point(-1, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(23, 43);
@@ -341,9 +342,9 @@
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.txtMensagem);
             this.panel1.Location = new System.Drawing.Point(11, 17);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(346, 160);
+            this.panel1.Size = new System.Drawing.Size(314, 158);
             this.panel1.TabIndex = 11;
             // 
             // txtMensagem
@@ -351,18 +352,18 @@
             this.txtMensagem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.txtMensagem.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMensagem.Location = new System.Drawing.Point(25, 42);
-            this.txtMensagem.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtMensagem.Margin = new System.Windows.Forms.Padding(2);
             this.txtMensagem.Multiline = true;
             this.txtMensagem.Name = "txtMensagem";
             this.txtMensagem.ReadOnly = true;
-            this.txtMensagem.Size = new System.Drawing.Size(302, 74);
+            this.txtMensagem.Size = new System.Drawing.Size(265, 74);
             this.txtMensagem.TabIndex = 0;
             this.txtMensagem.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnCamada1
             // 
             this.btnCamada1.Location = new System.Drawing.Point(330, 522);
-            this.btnCamada1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCamada1.Margin = new System.Windows.Forms.Padding(2);
             this.btnCamada1.Name = "btnCamada1";
             this.btnCamada1.Size = new System.Drawing.Size(30, 28);
             this.btnCamada1.TabIndex = 26;
@@ -373,7 +374,7 @@
             // btnCamada2
             // 
             this.btnCamada2.Location = new System.Drawing.Point(329, 471);
-            this.btnCamada2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCamada2.Margin = new System.Windows.Forms.Padding(2);
             this.btnCamada2.Name = "btnCamada2";
             this.btnCamada2.Size = new System.Drawing.Size(30, 28);
             this.btnCamada2.TabIndex = 25;
@@ -384,7 +385,7 @@
             // btnCamada3
             // 
             this.btnCamada3.Location = new System.Drawing.Point(329, 422);
-            this.btnCamada3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCamada3.Margin = new System.Windows.Forms.Padding(2);
             this.btnCamada3.Name = "btnCamada3";
             this.btnCamada3.Size = new System.Drawing.Size(30, 28);
             this.btnCamada3.TabIndex = 24;
@@ -395,7 +396,7 @@
             // btnCamada4
             // 
             this.btnCamada4.Location = new System.Drawing.Point(328, 371);
-            this.btnCamada4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCamada4.Margin = new System.Windows.Forms.Padding(2);
             this.btnCamada4.Name = "btnCamada4";
             this.btnCamada4.Size = new System.Drawing.Size(30, 28);
             this.btnCamada4.TabIndex = 23;
@@ -406,7 +407,7 @@
             // btnCamada5
             // 
             this.btnCamada5.Location = new System.Drawing.Point(328, 322);
-            this.btnCamada5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCamada5.Margin = new System.Windows.Forms.Padding(2);
             this.btnCamada5.Name = "btnCamada5";
             this.btnCamada5.Size = new System.Drawing.Size(30, 28);
             this.btnCamada5.TabIndex = 22;
@@ -417,7 +418,7 @@
             // btnCamada6
             // 
             this.btnCamada6.Location = new System.Drawing.Point(329, 271);
-            this.btnCamada6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCamada6.Margin = new System.Windows.Forms.Padding(2);
             this.btnCamada6.Name = "btnCamada6";
             this.btnCamada6.Size = new System.Drawing.Size(30, 28);
             this.btnCamada6.TabIndex = 21;
@@ -428,7 +429,7 @@
             // btnCamada7
             // 
             this.btnCamada7.Location = new System.Drawing.Point(329, 222);
-            this.btnCamada7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCamada7.Margin = new System.Windows.Forms.Padding(2);
             this.btnCamada7.Name = "btnCamada7";
             this.btnCamada7.Size = new System.Drawing.Size(30, 28);
             this.btnCamada7.TabIndex = 20;
@@ -436,11 +437,22 @@
             this.btnCamada7.UseVisualStyleBackColor = true;
             this.btnCamada7.Click += new System.EventHandler(this.btnCamada7_Click);
             // 
+            // panel23
+            // 
+            this.panel23.BackgroundImage = global::ProjetoRedes.Properties.Resources.download;
+            this.panel23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel23.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel23.Location = new System.Drawing.Point(330, 17);
+            this.panel23.Name = "panel23";
+            this.panel23.Size = new System.Drawing.Size(202, 158);
+            this.panel23.TabIndex = 27;
+            // 
             // Tela02
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(541, 579);
+            this.Controls.Add(this.panel23);
             this.Controls.Add(this.btnCamada1);
             this.Controls.Add(this.btnCamada2);
             this.Controls.Add(this.btnCamada3);
@@ -458,7 +470,7 @@
             this.Controls.Add(this.txtExibi);
             this.Controls.Add(this.panel1);
             this.Location = new System.Drawing.Point(600, 300);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Tela02";
             this.Text = "Tela02";
             this.Load += new System.EventHandler(this.Chat02_Load);
@@ -515,5 +527,6 @@
         private System.Windows.Forms.Button btnCamada5;
         private System.Windows.Forms.Button btnCamada6;
         private System.Windows.Forms.Button btnCamada7;
+        private System.Windows.Forms.Panel panel23;
     }
 }
