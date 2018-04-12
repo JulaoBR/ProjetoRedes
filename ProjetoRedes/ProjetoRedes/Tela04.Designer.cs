@@ -35,22 +35,22 @@
             this.btnCamada4 = new System.Windows.Forms.Button();
             this.btnCamada3 = new System.Windows.Forms.Button();
             this.btnCamada2 = new System.Windows.Forms.Button();
-            this.Camada4 = new System.Windows.Forms.Panel();
-            this.Camada3 = new System.Windows.Forms.Panel();
+            this.camada4 = new System.Windows.Forms.Panel();
+            this.camada3 = new System.Windows.Forms.Panel();
             this.panel33 = new System.Windows.Forms.Panel();
-            this.Camada2 = new System.Windows.Forms.Panel();
+            this.camada2 = new System.Windows.Forms.Panel();
             this.panel29 = new System.Windows.Forms.Panel();
             this.panel28 = new System.Windows.Forms.Panel();
             this.btnCamada1 = new System.Windows.Forms.Button();
-            this.Camada1 = new System.Windows.Forms.Panel();
+            this.camada1 = new System.Windows.Forms.Panel();
             this.panel30 = new System.Windows.Forms.Panel();
             this.panel31 = new System.Windows.Forms.Panel();
             this.panel32 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
-            this.Camada3.SuspendLayout();
-            this.Camada2.SuspendLayout();
-            this.Camada1.SuspendLayout();
+            this.camada3.SuspendLayout();
+            this.camada2.SuspendLayout();
+            this.camada1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -105,6 +105,7 @@
             this.btnCamada4.TabIndex = 44;
             this.btnCamada4.Text = "<>";
             this.btnCamada4.UseVisualStyleBackColor = true;
+            this.btnCamada4.Click += new System.EventHandler(this.btnCamada4_Click_1);
             // 
             // btnCamada3
             // 
@@ -115,6 +116,7 @@
             this.btnCamada3.TabIndex = 43;
             this.btnCamada3.Text = "<>";
             this.btnCamada3.UseVisualStyleBackColor = true;
+            this.btnCamada3.Click += new System.EventHandler(this.btnCamada3_Click_1);
             // 
             // btnCamada2
             // 
@@ -125,25 +127,26 @@
             this.btnCamada2.TabIndex = 42;
             this.btnCamada2.Text = "<>";
             this.btnCamada2.UseVisualStyleBackColor = true;
+            this.btnCamada2.Click += new System.EventHandler(this.btnCamada2_Click_1);
             // 
-            // Camada4
+            // camada4
             // 
-            this.Camada4.BackColor = System.Drawing.Color.Red;
-            this.Camada4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Camada4.Location = new System.Drawing.Point(372, 249);
-            this.Camada4.Name = "Camada4";
-            this.Camada4.Size = new System.Drawing.Size(38, 65);
-            this.Camada4.TabIndex = 38;
+            this.camada4.BackColor = System.Drawing.Color.Red;
+            this.camada4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.camada4.Location = new System.Drawing.Point(372, 249);
+            this.camada4.Name = "camada4";
+            this.camada4.Size = new System.Drawing.Size(38, 65);
+            this.camada4.TabIndex = 38;
             // 
-            // Camada3
+            // camada3
             // 
-            this.Camada3.BackColor = System.Drawing.SystemColors.Highlight;
-            this.Camada3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Camada3.Controls.Add(this.panel33);
-            this.Camada3.Location = new System.Drawing.Point(372, 333);
-            this.Camada3.Name = "Camada3";
-            this.Camada3.Size = new System.Drawing.Size(74, 65);
-            this.Camada3.TabIndex = 39;
+            this.camada3.BackColor = System.Drawing.SystemColors.Highlight;
+            this.camada3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.camada3.Controls.Add(this.panel33);
+            this.camada3.Location = new System.Drawing.Point(372, 333);
+            this.camada3.Name = "camada3";
+            this.camada3.Size = new System.Drawing.Size(74, 65);
+            this.camada3.TabIndex = 39;
             // 
             // panel33
             // 
@@ -154,16 +157,16 @@
             this.panel33.Size = new System.Drawing.Size(38, 65);
             this.panel33.TabIndex = 24;
             // 
-            // Camada2
+            // camada2
             // 
-            this.Camada2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.Camada2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Camada2.Controls.Add(this.panel29);
-            this.Camada2.Controls.Add(this.panel28);
-            this.Camada2.Location = new System.Drawing.Point(372, 414);
-            this.Camada2.Name = "Camada2";
-            this.Camada2.Size = new System.Drawing.Size(118, 65);
-            this.Camada2.TabIndex = 40;
+            this.camada2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.camada2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.camada2.Controls.Add(this.panel29);
+            this.camada2.Controls.Add(this.panel28);
+            this.camada2.Location = new System.Drawing.Point(372, 414);
+            this.camada2.Name = "camada2";
+            this.camada2.Size = new System.Drawing.Size(118, 65);
+            this.camada2.TabIndex = 40;
             // 
             // panel29
             // 
@@ -192,18 +195,19 @@
             this.btnCamada1.TabIndex = 41;
             this.btnCamada1.Text = "<>";
             this.btnCamada1.UseVisualStyleBackColor = true;
+            this.btnCamada1.Click += new System.EventHandler(this.btnCamada1_Click_1);
             // 
-            // Camada1
+            // camada1
             // 
-            this.Camada1.BackColor = System.Drawing.Color.Yellow;
-            this.Camada1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Camada1.Controls.Add(this.panel30);
-            this.Camada1.Controls.Add(this.panel31);
-            this.Camada1.Controls.Add(this.panel32);
-            this.Camada1.Location = new System.Drawing.Point(372, 496);
-            this.Camada1.Name = "Camada1";
-            this.Camada1.Size = new System.Drawing.Size(155, 65);
-            this.Camada1.TabIndex = 37;
+            this.camada1.BackColor = System.Drawing.Color.Yellow;
+            this.camada1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.camada1.Controls.Add(this.panel30);
+            this.camada1.Controls.Add(this.panel31);
+            this.camada1.Controls.Add(this.panel32);
+            this.camada1.Location = new System.Drawing.Point(372, 496);
+            this.camada1.Name = "camada1";
+            this.camada1.Size = new System.Drawing.Size(155, 65);
+            this.camada1.TabIndex = 37;
             // 
             // panel30
             // 
@@ -253,19 +257,20 @@
             this.Controls.Add(this.btnCamada4);
             this.Controls.Add(this.btnCamada3);
             this.Controls.Add(this.btnCamada2);
-            this.Controls.Add(this.Camada4);
-            this.Controls.Add(this.Camada3);
-            this.Controls.Add(this.Camada2);
+            this.Controls.Add(this.camada4);
+            this.Controls.Add(this.camada3);
+            this.Controls.Add(this.camada2);
             this.Controls.Add(this.btnCamada1);
-            this.Controls.Add(this.Camada1);
+            this.Controls.Add(this.camada1);
             this.Name = "Tela04";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Tela04";
+            this.Load += new System.EventHandler(this.Tela04_Load_1);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.Camada3.ResumeLayout(false);
-            this.Camada2.ResumeLayout(false);
-            this.Camada1.ResumeLayout(false);
+            this.camada3.ResumeLayout(false);
+            this.camada2.ResumeLayout(false);
+            this.camada1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -281,14 +286,14 @@
         public System.Windows.Forms.Button btnCamada4;
         public System.Windows.Forms.Button btnCamada3;
         public System.Windows.Forms.Button btnCamada2;
-        private System.Windows.Forms.Panel Camada4;
-        private System.Windows.Forms.Panel Camada3;
+        private System.Windows.Forms.Panel camada4;
+        private System.Windows.Forms.Panel camada3;
         private System.Windows.Forms.Panel panel33;
-        private System.Windows.Forms.Panel Camada2;
+        private System.Windows.Forms.Panel camada2;
         private System.Windows.Forms.Panel panel29;
         private System.Windows.Forms.Panel panel28;
         public System.Windows.Forms.Button btnCamada1;
-        private System.Windows.Forms.Panel Camada1;
+        private System.Windows.Forms.Panel camada1;
         private System.Windows.Forms.Panel panel30;
         private System.Windows.Forms.Panel panel31;
         private System.Windows.Forms.Panel panel32;

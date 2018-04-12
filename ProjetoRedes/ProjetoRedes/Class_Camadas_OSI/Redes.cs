@@ -12,7 +12,7 @@ namespace ProjetoRedes
         public Redes(PacoteOSI pct)
         {
             this.pacote = pct;
-            pacote.camada3 = "Roteamento de pacotes através de uma ou várias redes";
+            pacote.camada3 = "Responsável pelo roteamento de pacotes através de uma ou várias redes";
         }
 
         public PacoteOSI Retorno()

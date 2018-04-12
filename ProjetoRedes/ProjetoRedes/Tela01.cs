@@ -80,7 +80,7 @@ namespace ProjetoRedes
             camada6.Visible = true;
         }
 
-        private void Camada5()
+        private void Camada4()
         {
             Transporte tra = new Transporte(pacote);
 
@@ -89,12 +89,12 @@ namespace ProjetoRedes
             txtExibi.AppendText("\r\n\n");
             pacote = tra.Retorno();
             txtExibi.AppendText("INFORMAÇÃO ENVIADA: " + pacote.dados + "\r\n" +
-                                "FUNÇÃO: " + pacote.camada5 + "\r\n");
+                                "FUNÇÃO: " + pacote.camada4 + "\r\n");
             txtExibi.AppendText("\r\n\n");
-            camada5.Visible = true;
+            camada4.Visible = true;
         }
 
-        private void Camada4()
+        private void Camada5()
         {
             Sessao ses = new Sessao(pacote);
 
@@ -103,9 +103,9 @@ namespace ProjetoRedes
             txtExibi.AppendText("\r\n\n");
             pacote = ses.Retorno();
             txtExibi.AppendText("INFORMAÇÃO ENVIADA: " + pacote.dados + "\r\n" +
-                                "FUNÇÃO: " + pacote.camada4 + "\r\n");
+                                "FUNÇÃO: " + pacote.camada5 + "\r\n");
             txtExibi.AppendText("\r\n\n");
-            camada4.Visible = true;
+            camada5.Visible = true;
         }
 
         private void Camada3()

@@ -14,7 +14,7 @@ namespace ProjetoRedes
         public Aplicacao(PacoteOSI pct)
         {
             this.pacote = pct;
-            pacote.camada7 = "Funções especializadas (transferência de arquivos, terminal virtual, e-mail)";
+            pacote.camada7 = "Responsável pela transferência de arquivos, terminal virtual, e-mail";
         }
 
         public PacoteOSI Retorno()

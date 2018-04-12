@@ -10,7 +10,7 @@ namespace ProjetoRedes.Class_Camadas_TCPIP
         public AplicacaoTCP(PacoteTCP pct)
         {
             this.pacote = pct;
-            pacote.camada4 = "Funções aqui";
+            pacote.camada4 = "Responsável por realizar a comunicação entre os aplicativos e os protocolos de transporte";
         }
 
         public PacoteTCP Retorno()

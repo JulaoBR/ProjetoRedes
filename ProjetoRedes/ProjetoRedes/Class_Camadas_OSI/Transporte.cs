@@ -13,7 +13,7 @@ namespace ProjetoRedes
         public Transporte(PacoteOSI pct)
         {
             this.pacote = pct;
-            pacote.camada5 = "Meios e métodos para a entrega de dados ponta-a-ponta";
+            pacote.camada4 = "Responsável pelos meios e métodos para a entrega de dados ponta-a-ponta";
         }
 
         public PacoteOSI Retorno()

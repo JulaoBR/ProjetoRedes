@@ -13,7 +13,7 @@ namespace ProjetoRedes
         public Enlace(PacoteOSI pct)
         {
             this.pacote = pct;
-            pacote.camada2 = "Detecção e correção de erros introduzidos pelo meio de transmissão";
+            pacote.camada2 = "Responsável pela detecção e correção de erros introduzidos pelo meio de transmissão";
         }
 
         public PacoteOSI Retorno()

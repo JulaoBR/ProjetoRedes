@@ -12,7 +12,7 @@ namespace ProjetoRedes
         public Fisica(PacoteOSI pct)
         {
             this.pacote = pct;
-            pacote.camada1 = "Transmissão dos bits através do meio de transmissão";
+            pacote.camada1 = "Responsável pela transmissão dos bits através do meio de transmissão";
         }
 
         public PacoteOSI Retorno()

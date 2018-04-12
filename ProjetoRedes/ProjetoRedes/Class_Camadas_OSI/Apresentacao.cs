@@ -14,7 +14,7 @@ namespace ProjetoRedes
         public Apresentacao(PacoteOSI pct)
         {
             this.pacote = pct;
-            pacote.camada6 = "Formatação de dados e conversão de caracteres e códigos";
+            pacote.camada6 = "Responsável pela formatação de dados e conversão de caracteres e códigos";
         }
 
         public PacoteOSI Retorno()
